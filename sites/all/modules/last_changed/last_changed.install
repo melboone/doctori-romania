@@ -1,0 +1,64 @@
+<?php
+
+/**
+ * Implementation of hook_schema().
+ */
+function last_changed_schema() {
+  $schema = array();
+  $schema['last_changed'] = array(
+    'description' => 'Record of when different record has last changed',
+    'fields' => array(
+      'id' => array(
+        'type' => 'varchar',
+        'length' => 128,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Unique ID of the record',
+      ),
+      'type' => array(
+        'type' => 'varchar',
+        'length' => 128,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Type of the record',
+      ),
+      'last_changed' => array(
+        'description' => 'The Unix timestamp when the record was last changed.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0
+      ),
+      'deleted' => array(
+        'description' => 'Whether or not the record was deleted.',
+        'type' => 'int',
+        'size' => 'tiny',
+        'not null' => TRUE,
+        'default' => 0
+      ),
+    ),
+    'primary key' => array('id', 'type'),
+    'indexes' => array(
+      'type_last_changed' => array('type', 'last_changed'),
+      'type_deleted_last_changed' => array('type', 'deleted', 'last_changed'),
+      'last_changed' => array('last_changed'),
+      'deleted_last_changed' => array('deleted', 'last_changed'),
+    ),
+  );
+  return $schema;
+}
+
+/**
+ * Implementation of hook_install().
+ */
+function last_changed_install() {
+  // Create tables.
+  drupal_install_schema('last_changed');
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function last_changed_uninstall() {
+  // Remove tables.
+  drupal_uninstall_schema('last_changed');
+}

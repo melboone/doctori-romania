@@ -1,0 +1,1 @@
+<?php art_vmenu_output(isset($block->subject) ? $block->subject : '', isset($block->content) ? $block->content : ''); ?>

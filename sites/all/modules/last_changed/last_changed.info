@@ -1,0 +1,11 @@
+; $Id: last_changed.info,v 1.1 2010/07/01 19:19:12 andrewlevine Exp $
+name = Last Changed
+description = Keep track of the last time each node, comment, and user has changed
+core = 6.x
+
+; Information added by drupal.org packaging script on 2010-07-08
+version = "6.x-1.0-beta1"
+core = "6.x"
+project = "last_changed"
+datestamp = "1278620410"
+

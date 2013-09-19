@@ -1,0 +1,125 @@
+[05-Jun-2011 01:41:05] PHP Parse error:  syntax error, unexpected '=' in /home/deoare97/public_html/doctori/themes/Simple Blue/page.tpl.php on line 2
+[05-Jun-2011 01:41:08] PHP Parse error:  syntax error, unexpected '=' in /home/deoare97/public_html/doctori/themes/Simple Blue/page.tpl.php on line 2
+[05-Jun-2011 01:41:23] PHP Parse error:  syntax error, unexpected '=' in /home/deoare97/public_html/doctori/themes/Simple Blue/page.tpl.php on line 2
+[06-Jun-2011 15:58:43] PHP Fatal error:  views_db_object::get_item() [<a href='views-db-object.get-item'>views-db-object.get-item</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 1938
+[06-Jun-2011 15:58:47] PHP Fatal error:  views_db_object::get_item() [<a href='views-db-object.get-item'>views-db-object.get-item</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 1938
+[06-Jun-2011 15:58:50] PHP Fatal error:  views_db_object::get_item() [<a href='views-db-object.get-item'>views-db-object.get-item</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 1938
+[06-Jun-2011 15:58:53] PHP Fatal error:  views_db_object::get_item() [<a href='views-db-object.get-item'>views-db-object.get-item</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 1938
+[06-Jun-2011 15:59:04] PHP Fatal error:  views_db_object::get_item() [<a href='views-db-object.get-item'>views-db-object.get-item</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 1938
+[06-Jun-2011 16:02:25] PHP Fatal error:  view::get_exposed_input() [<a href='view.get-exposed-input'>view.get-exposed-input</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 171
+[06-Jun-2011 16:02:33] PHP Fatal error:  view::get_exposed_input() [<a href='view.get-exposed-input'>view.get-exposed-input</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 171
+[06-Jun-2011 16:08:36] PHP Fatal error:  view::get_exposed_input() [<a href='view.get-exposed-input'>view.get-exposed-input</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 171
+[06-Jun-2011 22:25:29] PHP Fatal error:  view::get_exposed_input() [<a href='view.get-exposed-input'>view.get-exposed-input</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 171
+[06-Jun-2011 22:25:42] PHP Fatal error:  views_db_object::get_item() [<a href='views-db-object.get-item'>views-db-object.get-item</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;views_plugin_display_default&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/deoare97/public_html/doctori/modules/module/views/includes/view.inc on line 1938
+[10-Jun-2011 16:25:39] PHP Parse error:  syntax error, unexpected T_PRINT in /home/deoare97/public_html/doctori/modules/module/rate/templates/fivestar/fivestar.tpl.php on line 7
+[10-Jun-2011 16:25:54] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deoare97/public_html/doctori/modules/module/rate/templates/fivestar/fivestar.tpl.php on line 7
+[10-Jun-2011 16:26:01] PHP Parse error:  syntax error, unexpected T_PRINT in /home/deoare97/public_html/doctori/modules/module/rate/templates/fivestar/fivestar.tpl.php on line 10
+[10-Jun-2011 19:33:07] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1118
+[10-Jun-2011 21:28:22] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1425
+[11-Jun-2011 12:48:08] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 13
+[11-Jun-2011 12:51:35] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1622
+[12-Jun-2011 14:41:56] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1769
+[12-Jun-2011 14:45:51] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1769
+[12-Jun-2011 14:45:53] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1769
+[12-Jun-2011 14:45:56] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1769
+[12-Jun-2011 14:45:58] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1769
+[17-Jun-2011 14:02:25] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1250
+[17-Jun-2011 14:20:37] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1622
+[17-Jun-2011 14:20:39] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1622
+[17-Jun-2011 14:21:24] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deoare97/public_html/doctori/modules/module/fivestar/fivestar.module on line 1624
+[17-Jun-2011 15:03:58] PHP Fatal error:  Cannot redeclare theme_fivestar_summary() in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[17-Jun-2011 15:03:58] PHP Fatal error:  Cannot redeclare theme_fivestar_summary() in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[17-Jun-2011 15:03:59] PHP Fatal error:  Cannot redeclare theme_fivestar_summary() in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[17-Jun-2011 15:04:23] PHP Fatal error:  Cannot redeclare theme_fivestar_summary() in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[17-Jun-2011 15:05:57] PHP Fatal error:  Cannot redeclare theme_fivestar_summary() in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[17-Jun-2011 15:08:04] PHP Fatal error:  Cannot redeclare theme_fivestar_summary() in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[20-Jun-2011 02:36:10] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[20-Jun-2011 02:36:42] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[20-Jun-2011 02:36:44] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[20-Jun-2011 02:37:15] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/Simple Blue/template.php on line 237
+[20-Jun-2011 10:09:14] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:09:15] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:09:18] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:09:18] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:09:36] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:10:08] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:10:23] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:10:25] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:10:25] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:10:25] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:17:28] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:17:29] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:17:38] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:17:40] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:19:13] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 237
+[20-Jun-2011 10:19:14] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 237
+[20-Jun-2011 10:19:36] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:20:49] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:21:38] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:22:28] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:22:29] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:22:29] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:22:29] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:22:30] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:24:53] PHP Parse error:  syntax error, unexpected '=' in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:24:55] PHP Parse error:  syntax error, unexpected '=' in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:25:14] PHP Parse error:  syntax error, unexpected '=' in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:27:35] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:27:36] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:28:26] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 10:28:55] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:28:56] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:28:57] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:30:51] PHP Parse error:  syntax error, unexpected '{' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 233
+[20-Jun-2011 10:30:52] PHP Parse error:  syntax error, unexpected '{' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 233
+[20-Jun-2011 10:30:52] PHP Parse error:  syntax error, unexpected '{' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 233
+[20-Jun-2011 10:31:24] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:31:25] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:32:00] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 30
+[20-Jun-2011 10:32:19] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 15
+[20-Jun-2011 10:32:40] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 37
+[20-Jun-2011 10:34:23] PHP Fatal error:  Call to undefined function blue_taxonomy_links() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 37
+[20-Jun-2011 10:35:28] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:37:29] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:45:35] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:45:58] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:46:06] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:46:23] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:47:45] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:50:37] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 155
+[20-Jun-2011 10:50:38] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 155
+[20-Jun-2011 10:50:38] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 155
+[20-Jun-2011 10:50:50] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:52:36] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:54:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/deoare97/public_html/doctori/themes/blue/template.php on line 110
+[20-Jun-2011 10:54:19] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 155
+[20-Jun-2011 10:54:29] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/themes/blue/template.php on line 156
+[20-Jun-2011 10:54:36] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 10:55:33] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 22
+[20-Jun-2011 10:55:41] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 16
+[20-Jun-2011 10:55:57] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 16
+[20-Jun-2011 10:55:58] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 16
+[20-Jun-2011 10:57:17] PHP Fatal error:  Call to undefined function yourthemename_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 11:07:51] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 11:07:52] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 11:07:54] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 11:08:27] PHP Fatal error:  Call to undefined function yourthemename_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 11:08:28] PHP Fatal error:  Call to undefined function yourthemename_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 11:08:28] PHP Fatal error:  Call to undefined function yourthemename_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 11:08:36] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/themes/blue/node.tpl.php on line 39
+[20-Jun-2011 11:20:11] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/sites/all/themes/blue/node.tpl.php on line 38
+[20-Jun-2011 11:29:17] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/deoare97/public_html/doctori/sites/all/themes/blue/node.tpl.php on line 22
+[20-Jun-2011 11:29:28] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/deoare97/public_html/doctori/sites/all/themes/blue/node.tpl.php on line 21
+[21-Jun-2011 02:17:19] PHP Parse error:  syntax error, unexpected '}' in /home/deoare97/public_html/doctori/sites/all/themes/doc/template.php on line 133
+[21-Jun-2011 02:17:19] PHP Parse error:  syntax error, unexpected '}' in /home/deoare97/public_html/doctori/sites/all/themes/doc/template.php on line 133
+[21-Jun-2011 02:17:22] PHP Parse error:  syntax error, unexpected '}' in /home/deoare97/public_html/doctori/sites/all/themes/doc/template.php on line 133
+[21-Jun-2011 02:17:57] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/deoare97/public_html/doctori/sites/all/themes/doc/template.php on line 133
+[21-Jun-2011 02:18:09] PHP Parse error:  syntax error, unexpected '}' in /home/deoare97/public_html/doctori/sites/all/themes/doc/template.php on line 133
+[21-Jun-2011 02:21:13] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/sites/all/themes/doc/node.tpl.php on line 29
+[21-Jun-2011 02:21:15] PHP Fatal error:  Call to undefined function blue_print_terms() in /home/deoare97/public_html/doctori/sites/all/themes/doc/node.tpl.php on line 29
+[21-Jun-2011 02:21:53] PHP Parse error:  syntax error, unexpected $end in /home/deoare97/public_html/doctori/sites/all/themes/doc/template.php on line 178
+[21-Jun-2011 02:24:13] PHP Parse error:  syntax error, unexpected $end in /home/deoare97/public_html/doctori/sites/all/themes/doc/template.php on line 178
+[21-Jun-2011 02:29:08] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/deoare97/public_html/doctori/sites/all/themes/doc/node.tpl.php on line 17
+[21-Jun-2011 02:29:09] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/deoare97/public_html/doctori/sites/all/themes/doc/node.tpl.php on line 17
+[25-Jun-2011 02:46:43] PHP Parse error:  syntax error, unexpected $end in /home/deoare97/public_html/doctori/modules/comment/comment.module on line 2153
+[25-Jun-2011 12:02:13] PHP Parse error:  syntax error, unexpected '<' in /home/deoare97/public_html/doctori/modules/module/cck/includes/content.admin.inc(1247) : eval()'d code on line 1

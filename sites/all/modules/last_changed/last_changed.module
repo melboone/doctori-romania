@@ -1,0 +1,139 @@
+<?php
+// $Id: last_changed.module,v 1.1 2010/07/01 19:19:12 andrewlevine Exp $
+
+/**
+ * Implementation of hook_menu().
+ */
+function last_changed_menu() {
+  $items = array();
+  $items['admin/settings/last_changed'] = array(
+    'title' => 'Last Changed',
+    'description' => 'Configure how timestamps should be kept for when records last changed.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('last_changed_settings_form'),
+    'file' => 'last_changed.admin.inc',
+    'access arguments' => array('administer site configuration'),
+  );
+  return $items;
+}
+
+/**
+ * Implementation of hook_nodeapi().
+ */
+function last_changed_nodeapi(&$node, $op, $teaser = NULL, $page = NULL) {
+  switch($op) {
+    case 'insert':
+    case 'update':
+      _last_changed_mark('node', $node->nid);
+      break;
+    case 'delete':
+      _last_changed_mark('node', $node->nid, TRUE);
+      break;
+  }
+}
+
+/**
+ * Implementation of hook_comment().
+ */
+function last_changed_comment(&$a1, $op) {
+  switch ($op) {
+    case 'insert':
+    case 'update':
+      _last_changed_mark('comment', $a1['cid']);
+      break;
+    case 'delete':
+      _last_changed_mark('comment', $a1->cid, TRUE);
+      break;
+  }
+}
+
+/**
+ * Implementation of hook_user().
+ */
+function last_changed_user($op, &$edit, &$account, $category = NULL) {
+  switch($op) {
+    case 'insert':
+    case 'update':
+      _last_changed_mark('user', $account->uid);
+      break;
+    case 'delete':
+      _last_changed_mark('user', $account->uid, TRUE);
+      break;
+  }
+}
+
+/**
+ * Implementation of hook_views_api().
+ */
+function last_changed_views_api() {
+  return array(
+    'api' => 2,
+    'path' => drupal_get_path('module', 'last_changed') . '/views',
+  );
+}
+
+/**
+ * Mark a record has changed in the {last_changed} table. If it is new, insert
+ * it. If it is already in the table, update it.
+ * 
+ * @param $type
+ *   The type of the record that is being changed
+ * @param $id
+ *   The unique ID of the record that is being changed. Must be unique among
+ *   all records of this $type.
+ * @param $deleted
+ *   Whether the record is being deleted
+ * @param $last_changed
+ *   FALSE if the record is being marked changed now, otherwise a unix timestamp
+ *   that the record should be marked last changed.
+ */
+function _last_changed_mark($type, $id, $deleted = FALSE, $last_changed = FALSE) {
+  $types = variable_get('last_changed_types', drupal_map_assoc(array('node', 'comment', 'user')));
+  // Don't mark anything if recording is not enabled for the type.
+  if (empty($types[$type])) {
+    return;
+  }
+
+  if ($last_changed === FALSE) {
+    $last_changed = time();
+  }
+  if (empty($type) || !is_scalar($type)) {
+    throw new Exception(t("Invalid type passed to _last_changed_mark()."));
+  }
+  if (empty($id) || !is_scalar($id)) {
+    throw new Exception(t("Invalid ID passed to _last_changed_mark()."));
+  }
+  $record = new stdClass;
+  $record->type = $type;
+  $record->id = $id;
+  $record->last_changed = $last_changed;
+  $record->deleted = $deleted ? 1 : 0;
+
+  drupal_write_record('last_changed', $record, array('id', 'type'));
+  if (!db_affected_rows()) {
+    drupal_write_record('last_changed', $record);
+  }
+}
+
+/**
+ * Implementation of hook_last_changed_types().
+ * @return
+ *   An array of types of which changes can be marked. Array keys should be the
+ *   machine name of the type and value should be the human name.
+ */
+function last_changed_last_changed_types() {
+  return array(
+    'node' => t("Nodes"),
+    'comment' => t("Comments"),
+    'user' => t("Users"),
+  );
+}
+
+/**
+ * Implementation of hook_cron().
+ */
+function last_changed_cron() {
+  if ($expiration = variable_get('last_changed_expiration', 0)) {
+    db_query("DELETE FROM {last_changed} WHERE last_changed < %d", time() - $expiration);
+  }
+}
